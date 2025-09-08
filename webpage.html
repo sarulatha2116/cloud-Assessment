@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ice Cream Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff6f61;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Ice Cream Shop</h1>
+    <div class="gallery">
+        <img src="./Ice cream cone" alt="Ice Cream Cone" />
+        <img src="./Ice Cream Scoops" alt="Ice Cream Scoops" />
+        <img src="./Ice Cream Shop Interior" alt="Ice Cream Shop Interior" />
+        <img src="./Ice Cream in Cup" alt="Ice Cream in Cup" />
+    </div>
+</body>
+</html>
